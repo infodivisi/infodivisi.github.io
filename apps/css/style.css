@@ -1,0 +1,77 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+nav {
+    background-color: #373737;
+    padding: 15px;
+}
+nav .item-navbar {
+    color: #ffffff;
+    display: inline;
+    font-family: 'Varela Round', sans-serif;
+    padding: 15px;
+    margin: 0 5px 0 5px;
+}
+nav .item-active {
+    color: #fff000;
+}
+nav .item-navbar:hover {
+    background-color: #ffffff;
+    color: #373737;
+    border-radius: 10px;
+}
+nav span:hover {
+    cursor: default;
+}
+
+/* Banner */
+.banner {
+    background-image: url('../../assets/bgbanner.png');
+    background-size: cover;
+}
+.close-banner {
+    background-color: #373737;
+    height: 20px;
+}
+
+/* Main */
+main p, main li {
+    font-family: 'Varela Round', sans-serif;
+}
+.divisi {
+    border: 10px solid #f0d91b;
+    border-radius: 0 50px 0 50px;
+    margin: 25px 0 25px 0;
+}
+.judul-divisi {
+    width: 70%;
+}
+.info-divisi {
+    padding: 20px;
+}
+.info-divisi p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 19px;
+}
+
+/* Footer */
+footer {
+    background-color: #373737;
+    padding: 20px 0 20px 0;
+}
+footer p {
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
